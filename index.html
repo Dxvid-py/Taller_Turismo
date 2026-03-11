@@ -11,34 +11,50 @@
         ::-webkit-scrollbar-thumb { background: #e67e22; border-radius: 5px; }
         body { font-family: 'Montserrat', sans-serif; margin: 0; background-color: #f0f2f5; color: #333; }
         header { background: #2c3e50; color: white; padding: 50px 20px; text-align: center; }
-        h1 { font-family: 'Oswald', sans-serif; letter-spacing: 3px; margin: 0; font-size: 2.5rem; }
+        h1 { font-family: 'Oswald', sans-serif; letter-spacing: 3px; margin: 0; font-size: 2.5rem; text-transform: uppercase; }
         .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
         .destinos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
         .card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.05); transition: 0.4s ease; }
         .card:hover { transform: translateY(-10px); box-shadow: 0 15px 35px rgba(0,0,0,0.2); }
         .card img { width: 100%; height: 250px; object-fit: cover; }
         .card-body { padding: 25px; }
-        .card-body h2 { margin: 0 0 10px 0; color: #2c3e50; font-family: 'Oswald', sans-serif; }
-        .card-body p { margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem; }
+        .card-body h2 { margin: 0 0 10px 0; color: #2c3e50; font-family: 'Oswald', sans-serif; border-bottom: 2px solid #e67e22; display: inline-block; padding-bottom: 5px; }
+        .card-body p { margin: 10px 0 0 0; line-height: 1.6; color: #666; font-size: 0.95rem; }
         footer { background: #1a1a1a; color: #666; text-align: center; padding: 50px 20px; margin-top: 80px; }
     </style>
 </head>
 <body>
-    <header><h1>DESTINOS TURÍSTICOS IMPRESCINDIBLES</h1></header>
+    <header><h1>Destinos Turísticos Imprescindibles</h1></header>
     <main class="container">
         <div class="destinos-grid">
-            <div class="card"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600" alt="Paris"><div class="card-body"><h2>París</h2><p>La Ciudad de la Luz.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1587590227264-0ac64ce63ce8?w=600" alt="Machu Picchu"><div class="card-body"><h2>Machu Picchu</h2><p>Maravilla Inca.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600" alt="Roma"><div class="card-body"><h2>Roma</h2><p>Historia imperial.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600" alt="Tokio"><div class="card-body"><h2>Tokio</h2><p>Futuro y tradición.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1583531352515-888413146a51?w=600" alt="Cartagena"><div class="card-body"><h2>Cartagena</h2><p>Joyas coloniales.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=600" alt="Nueva York"><div class="card-body"><h2>Nueva York</h2><p>La Gran Manzana.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=600" alt="Cairo"><div class="card-body"><h2>El Cairo</h2><p>Pirámides de Giza.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600" alt="Venecia"><div class="card-body"><h2>Venecia</h2><p>Canales medievales.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=600" alt="Sidney"><div class="card-body"><h2>Sídney</h2><p>Opera House.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1552074284-5e88ef1aef18?w=600" alt="Cancun"><div class="card-body"><h2>Cancún</h2><p>Paraíso Caribeño.</p></div></div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Machu_Picchu%2C_Peru_%282018%29.jpg/500px-Machu_Picchu%2C_Peru_%282018%29.jpg" alt="Machu Picchu, Perú">
+                <div class="card-body">
+                    <h2>Machu Picchu</h2>
+                    <p>La ciudad sagrada de los Incas, una joya de la ingeniería rodeada de nubes y montañas en los Andes peruanos.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://mlqfmr3rpryd.i.optimole.com/cb:JBSP.a525/w:auto/h:auto/q:100/ig:avif/https://cartagena-tours.co/wp-content/uploads/2023/12/Torre-del-Reloj-en-Cartagena-de-Indias-Colombia.jpg" alt="Torre del Reloj, Cartagena">
+                <div class="card-body">
+                    <h2>Cartagena</h2>
+                    <p>Famosa por su Ciudad Amurallada y la emblemática Torre del Reloj, es el corazón histórico del Caribe colombiano.</p>
+                </div>
+            </div>
+
+            <div class="card"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600" alt="Paris"><div class="card-body"><h2>París</h2><p>La Ciudad de la Luz y el arte mundial.</p></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600" alt="Roma"><div class="card-body"><h2>Roma</h2><p>El Coliseo y la historia eterna de Italia.</p></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600" alt="Tokio"><div class="card-body"><h2>Tokio</h2><p>El cruce de Shibuya y el futuro de Japón.</p></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=600" alt="Nueva York"><div class="card-body"><h2>Nueva York</h2><p>Rascacielos y el vibrante Times Square.</p></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=600" alt="Cairo"><div class="card-body"><h2>El Cairo</h2><p>Las majestuosas Pirámides de Giza.</p></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=600" alt="Venecia"><div class="card-body"><h2>Venecia</h2><p>Góndolas recorriendo canales históricos.</p></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=600" alt="Sidney"><div class="card-body"><h2>Sídney</h2><p>La icónica Opera House de Australia.</p></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1552074284-5e88ef1aef18?w=600" alt="Cancun"><div class="card-body"><h2>Cancún</h2><p>Playas turquesas y descanso caribeño.</p></div></div>
         </div>
     </main>
-    <footer><p>&copy; 2026 Emanuel - Proyecto Finalizado</p></footer>
+    <footer>
+        <p>&copy; 2026 Emanuel - Proyecto de Turismo - CUC</p>
+    </footer>
 </body>
 </html>
